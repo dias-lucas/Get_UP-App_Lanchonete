@@ -1,0 +1,20 @@
+div.card{
+  border-width: medium;
+  border-style: none;
+  border-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input.form-control{
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+#FonteModerna{
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+#preto{
+  background-color: black;
+}

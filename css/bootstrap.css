@@ -543,8 +543,9 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -612,6 +613,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  padding-top: 15px;
 }
 
 .no-gutters {
@@ -635,6 +637,7 @@ pre code {
   width: 100%;
   padding-right: 5px;
   padding-left: 5px;
+
 }
 
 .col {
@@ -705,6 +708,8 @@ pre code {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%;
+  padding-top: 15px;
+  
 }
 
 .col-4 {
@@ -717,6 +722,7 @@ pre code {
   -ms-flex: 0 0 41.666667%;
   flex: 0 0 41.666667%;
   max-width: 41.666667%;
+  padding-top: 15px;
 }
 
 .col-6 {
@@ -4781,7 +4787,9 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  padding-left: 1.25rem;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .card-title {

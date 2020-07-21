@@ -18,3 +18,19 @@ input.form-control{
 #preto{
   background-color: black;
 }
+
+#verde{
+  background-color: green;
+}
+
+#azul{
+  background-color: blue;
+}
+
+#vermelho{
+  background-color: red;
+}
+
+#containerMarge{
+  margin-top: 2rem;
+}

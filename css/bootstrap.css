@@ -709,7 +709,6 @@ pre code {
   flex: 0 0 25%;
   max-width: 25%;
   padding-top: 15px;
-  
 }
 
 .col-4 {
@@ -5951,6 +5950,7 @@ a.close.disabled {
   height: 100%;
   overflow: hidden;
   outline: 0;
+  padding-top: 150px;
 }
 
 .modal-dialog {

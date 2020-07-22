@@ -4,14 +4,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="C:\Users\Lucas\Documents\TRABALHOS\Get Up 1.0\css\css.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Lucas\Documents\TRABALHOS\Get Up 1.0\css\bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="C:\Users\Lucas\Documents\TRABALHOS\Get Up 1.0\css\bootstrap.css">
     <title>Hello, world!</title>
   </head>
   <body>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="jquery.mask.js"></script>
+
     <ul class="nav nav-tabs" style="background-color: #F0FFFF;">
       <a class="navbar-brand"  href="index.html">
         <img src="C:\Users\Lucas\Documents\TRABALHOS\Get Up 1.0\img\Logo.png" width="140" height="100" alt="" loading="lazy">
@@ -46,7 +52,7 @@
                     </div>
                     <div class="col">
                       <label for="exampleInputEmail1" id="FonteModerna">Telefone</label>
-                        <input class="form-control" type="text" placeholder="" id="FonteModerna">
+                        <input class="form-control" type="text" placeholder="" id="telefone" data-mask="() 0 0000-0000">
                     </div>
                   </div>
                   <div class="row">
@@ -73,21 +79,58 @@
             </div>
             <div class="card-body">
               <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1" id="FonteModerna">Nome Usuário</label>
-                    <input class="form-control" type="text" placeholder="" id="FonteModerna">
+                <div class="row">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1" id="FonteModerna">Nome Usuário</label>
+                      <input class="form-control" type="text" placeholder="" id="FonteModerna">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1" id="FonteModerna">Senha</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1" id="FonteModerna">Senha</label>
-                  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
-                <button type="submit" class="btn btn-success" id="FonteModerna">Enviar</button>
+                <button type="submit" class="btn btn-success" id="FonteModerna" herf="#" data-toggle="modal" data-target="#sitemodal">Enviar</button>
               </form>
             </div>
+          </div>
+          <div class="row">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sitemodal">Login</button>
           </div>
           </div>
           <div class="col">
             <!-- Container lateral direita -->
+        </div>
+      </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="sitemodal" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login </h5>
+                <button type="button" class="close" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </div>
+
+            <div class="modal-body">
+              <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Usuário</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Senha</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+
+      <button type="button" class="btn btn-success">Entrar</button>
+    </form>
+            </div>
+            <div class="modal-footer">
+
+          </div>
         </div>
       </div>
     </div>

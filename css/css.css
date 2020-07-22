@@ -5,6 +5,15 @@ div.card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+#botao{
+  text-align: center
+}
+
+.botao{
+  text-align: center
+}
+
+
 input.form-control{
   font-family: sans-serif;
   font-size: 13px;

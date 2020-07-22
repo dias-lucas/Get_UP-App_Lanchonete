@@ -86,6 +86,9 @@ html {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .no-gutters {
@@ -1990,7 +1993,7 @@ html {
   }
   .flex-xl-grow-1 {
     -ms-flex-positive: 1 !important;
-    flex-grow: 1 !important;
+    flex-g: 1 !important;
   }
   .flex-xl-shrink-0 {
     -ms-flex-negative: 0 !important;

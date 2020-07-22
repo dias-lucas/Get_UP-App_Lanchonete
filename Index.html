@@ -17,7 +17,7 @@
 
   <body>
     <!-- As a heading -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F0FFFF;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2E3B68;">
       <!--  <span class="navbar-brand mb-0 h1">Navbar</span>-->
       <a class="navbar-brand" href="#">
         <img src="C:\Users\Lucas\Documents\TRABALHOS\Get Up 1.0\img\Logo.png" width="140" height="100" alt="" loading="lazy" href="file:///C:/Users/Lucas/Documents/TRABALHOS/Get%20Up%201.0/index.html#">
@@ -79,32 +79,41 @@
       </div>
     </div>
     <!-- modal -->
-
     <div class="modal fade" id="sitemodal" tabindex="-1" role="dialog" data-backdrop="static">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Login </h5>
-                <button type="button" class="close" data-dismiss="modal">
-                  <span>&times;</span>
-                </button>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="background-color: #3C3D3E;">
+          <button type="button" class="close" data-dismiss="modal" style="background-color: #3C3D3E;">
+                <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="background-color: #2E3B68;">
+            <form>
+              <div class="form-group">
+                <div class="row" style="padding-right: 40px; padding-left: 40px; padding-bottom: 25px;">
+                    <h5 class="modal-title">ENTRAR</h5>
+                </div>
+                <div class="row" style="padding-right: 40px; padding-left: 40px; padding-bottom: 20px;">
+                  <input type="email" class="form-control" name="usuario_email" id="usuario_email" placeholder="E-mail">
+                </div>
+                <div class="row" style="padding-right: 40px; padding-left: 40px; padding-bottom: 20px;">
+                  <input type="password" class="form-control" name="usuario_senha" id="usuario_senha" placeholder="Senha">
+                </div>
+                <div class="row" style="padding-right: 40px; padding-left: 40px; padding-bottom: 15px; padding-top: 10px;">
+                  <button type="submit" class="btn btn-success btn-lg btn-block">Entrar</button>
+                </div>
+                <div class="row" style="padding-right: 40px; padding-left: 40px; padding-bottom: 15px;">
+                  <div class="col"  style="text-align: center;">
+                    <a href="#"><label>Esqueci minha senha</label></a>
+                  </div>
+                  <div class="col" style="text-align: center;">
+                      <a href="#"><label>Não tenho cadastro</label></a>
+                  </div>
+                </div>
               </div>
-
-            <div class="modal-body">
-              <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Usuário</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Senha</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-
-      <button type="submit" class="btn btn-success">Entrar</button>
-    </form>
-            </div>
-            <div class="modal-footer">
+            </form>
+          </div>
+          <div class="modal-footer" style="background-color: #3C3D3E; height: 32px;">
 
           </div>
         </div>
